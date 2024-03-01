@@ -1,0 +1,95 @@
+#clock{
+    font-size: 5rem;
+}
+
+
+.hidden{
+    display: none;
+}
+
+/* style.css */
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#login-form,
+#todo-list,
+#quote {
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: 0 0 0.1 0 solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#quote span {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+/* 이미지 배경 */
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#todo-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
